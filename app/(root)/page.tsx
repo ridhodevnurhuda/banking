@@ -6,16 +6,7 @@ import React from "react";
 
 const Home = async () => {
   const loggedIn = await getLoggedInUser();
-  // console.log(loggedIn?.name)
-
-
-  // loggedInOld
-  // const loggedIn = {
-  //   name: "Ridho Komplit",
-  //   firstName: "Ridho",
-  //   lastName: "Nurhuda",
-  //   email : "JWbUW@example.com"
-  // }
+  
   return (
     <section className="home">
       <div className="home-content">
